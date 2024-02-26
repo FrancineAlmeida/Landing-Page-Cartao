@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap')
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgba(192, 7, 7, 1);
+}
+ 
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.imagem-cabecalho{
+    height: 60px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 35px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.cabecalho-menu-item:hover{
+    background-color: rgba(177, 8, 2, 0.76);
+}
+
+.principal{
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    border-top: 0.4px solid rgb(168, 3, 3);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.divisao-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-principal{
+    max-width:250px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    margin-left: 150px;
+}
+
+.subtitulo{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.divisao-secundaria{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 1%;
+}
+
+.imagem-secundaria{    
+    max-width:250px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    margin-left: 150px;   
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.divisao-secundaria-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 0;
+
+ 
+}
+
+.titulo{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.paragrafo{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-top: 0.4px solid rgb(168, 3, 3);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.imagem-rodape{
+    height: 30px;
+}
+
+.rodape-subtitulo{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
